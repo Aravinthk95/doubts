@@ -1,0 +1,157 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+body{
+    min-width: 100%;
+    overflow-x:hidden;
+    font-family: var(--third--ff);
+    background-color: var(--eight-bg);
+    font-size: var(--third-fs);
+    
+}
+:root{
+    --primary-ff:'Times New Roman', Times, serif;
+    --secondary-ff: Verdana, Geneva, Tahoma, sans-serif;
+    --third-ff:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --primary-fw:400;
+    --primary-bg:#f0f8ff;
+    --secondary-bg:#faebd7;
+    --third-bg:#ffe4c4;
+    --fourt-bg:#fffaf0;
+    --fifth-bg:#f8f8ff;
+    --sixth-bg:#e6e6fa;
+    --seventh-bg:#d3d3d3;
+    --eight-bg:#fffafa;
+    --ninth-bg:#dc143c;
+    --logo--bg:#66cdaa;
+    --primary-fs:150px;
+    --secondary-fs:70px;
+    --third-fs:30px;
+    --fourth-fs:25px;
+    --fifth-fs:11px;
+}
+
+#MainContainer{
+    display: flex;
+    flex-direction:column;
+    padding-top: 20px;
+}
+
+.subchild1{
+    display: flex;
+    flex-direction: column;
+}
+
+.line1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:var(--fifth-fs);
+    font-family: var(--secondary-ff) ;
+}
+
+.line2{
+    background-color: var(--ninth-bg);
+    height: 10px;
+
+}
+
+.line03{
+    display: flex;
+    flex-direction:column;
+    background-color: var(--seventh-bg);
+    justify-content: space-around;
+    
+   
+}
+
+
+.line3{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+    justify-content: center;
+    align-items: center;
+    padding-right: 70px;
+   
+}
+
+
+.heading1part{
+    display:flex;
+    justify-content: center;
+    align-self: center;
+    font-size:var(--secondary-fs) ;
+    font-family:var(--primary-ff) ;
+}
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height:20px; */
+    
+}
+
+
+.heading2part{
+    display:flex;
+    justify-content: center;
+    align-self: center;
+    font-size:var(--secondary-fs) ;
+    font-family:var(--primary-ff) ;
+}
+
+.line4{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    
+    
+
+}
+
+.head1{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    font-size:var(--primary-fs) ;
+    font-family:var(--primary-ff) ;
+    padding-left: 40px;
+    /* padding-bottom: 10px; */
+
+}
+
+.head2{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    font-size:var(--primary-fs) ;
+    font-family:var(--primary-ff) ;
+    padding-left: 50px;
+    
+}
+
+
+.line5{
+    background-color: var(--ninth-bg);
+    height:5px;
+}
+
+.line6{
+    display: flex;
+    flex-direction:row;
+    font-size:var(--fifth-fs);
+    font-family: var(--secondary-ff) ;
+    justify-content: space-around;
+   
+}
+
+
+
